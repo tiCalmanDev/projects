@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mainQuiz.css" />
+</head>
+
+<body class="body">
+
+    <div class="timer">
+        <div id="timerSec">30</div>
+    </div>
+
+    <!--Progress Container-->
+    <div id="Progress_Status">
+        <div id="myprogressBar"></div>
+    </div>
+    <!-- End progress container-->
+
+    <!--Question Disp-->
+    <div class='questNum' id='questionNumberDisplay'></div>
+    <!-- End Quest Disp-->
+
+    <!-- Quiz container-->
+    <div class="quiz-container">
+        <div id='quiz'> </div>
+    </div>
+    <div class="buttonsCont">
+        <button class="btn" id='previous'>Previous Button</button>
+        <button class="btn" id='next'>Next Question</button>
+        <button class="btn" id='review'>Review Answers</button>
+        <button class="btn" id="submit">Submit Quiz</button>
+        <button class="btn" id="restart">Restart Quiz</button>
+        <button class="btn" id="trigger">Hint!</button>
+        <button class="btn" id="enterScore"> <a href="score.html"> Enter You Score</a></button>
+    </div>
+    <div id='results'></div>
+    <!--End quiz container-->
+
+    <!--modal hint-->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h1 id="hint">Theres's two words in this answer</h1>
+        </div>
+    </div>
+    <!--end modal hint-->
+
+    <script src='js/appQuiz.js'> </script>
+</body>
+
+</html>
