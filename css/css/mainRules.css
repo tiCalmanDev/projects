@@ -1,0 +1,26 @@
+.body {
+    background-image: url("VRgamerules.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+
+ul.transbox {
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  ul.transbox li {
+    margin: 1%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+
+/* .list{
+    font-size: 25px;
+    color:black;
+    opacity: 1;
+} */

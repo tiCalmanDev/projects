@@ -1,0 +1,59 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+    .high-score{
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .high-score:hover{
+        transform: scale(1.025);
+    }
+    
+
+#finalScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.body {
+    background-image: url("WinnersBoard.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+/* 
+ul.transbox {
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  ul.transbox li {
+    margin: 1%;
+    font-weight: bold;
+    color: #000000;
+  } */
+
+
+
+
+
+
